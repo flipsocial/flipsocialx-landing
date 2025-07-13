@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #090a0f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4e21ca, #00d4ff);
+  text-align: center;
+}
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.btn {
+  padding: 1rem 2rem;
+  background: #ff14b8;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 50px;
+}
+.btn:hover {
+  background: #ff44d1;
+}
